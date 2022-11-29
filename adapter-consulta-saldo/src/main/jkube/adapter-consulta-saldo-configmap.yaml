@@ -1,0 +1,8 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: adapter-consulta-saldo-configmap
+data:
+  logging.config: /etc/config/logback.xml
+  atomic.host: atomic-consulta-saldo
+  atomic.port: '8080'
